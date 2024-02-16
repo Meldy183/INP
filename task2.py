@@ -1,3 +1,4 @@
+# дефолтный алгоритм мёрдж сорта
 def msort(x: list):
     if len(x) < 2:
         return x
@@ -19,6 +20,7 @@ def msort(x: list):
     return result
 
 
+# чтение файла в список и замена запятых в числах на точки для обработки флоат
 f = open('books.csv', encoding='utf-8')
 f.readline()
 mas = list()

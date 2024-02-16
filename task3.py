@@ -1,8 +1,10 @@
+# чтение файла в список
 f = open('books.csv', encoding='utf-8')
 f.readline()
 mas = list()
 for i in f:
     mas.append(i.strip().split(';'))
+# поиск по общим буквам по назвнию книги через линейный поиск
 s = input()  # Названия писать строго в соответствии с регистром
 while s != 'хватит':
     cnt = 0
