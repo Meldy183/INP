@@ -1,4 +1,4 @@
-def msort(x):
+def msort(x: list):
     if len(x) < 2:
         return x
     result = []
@@ -29,4 +29,3 @@ for i in range(len(mas)):
 mas = msort(mas)
 for i in range(3):
     print(f'{mas[i][-2]} - {mas[i][2]} - {mas[i][-1]}')
-
